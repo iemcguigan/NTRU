@@ -68,6 +68,15 @@ class Fraction():
         else:
             return self.num / self.denom < other.num / other.denom
 
+    def __le__(self, other):
+        return self < other or self == other
+
+    def __gt__(self, other):
+        return not self <= other
+
+    def __ge__(self, other):
+        return not self < other
+
     #Makes output easy to read -- Fraction(a,b) is printed as "a/b"
     def __repr__(self):
         if self.denom == 1: #Special case if the denominator is 1
