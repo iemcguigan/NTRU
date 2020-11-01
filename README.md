@@ -2,7 +2,7 @@
 Implementation of the NTRU encryption algorithm.
 
 ### The algorithm
-The NTRU (Nth TRUncated polynomial ring, Number Theorists 'R Us) cryptosystem is a public key quantum-resistant cryptosystem based on the difficulty of the shortest lattice vector problem.  Suppose Alice wants to send a message to Bob.  First, Bob chooses 3 pairwise relatively prime parameters:
+The NTRU (Nth TRUncated polynomial ring) cryptosystem is a public key quantum-resistant cryptosystem based on the difficulty of the shortest lattice vector problem.  Suppose Alice wants to send a message to Bob.  First, Bob chooses 3 pairwise relatively prime parameters:
 
 1. *N*, a prime
 2. *p*, (usually) a prime
